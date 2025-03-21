@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +19,455 @@
     <title>Jakub Černý | ASP.NET Developer</title>
   </head>
   <body>
-    <h1>Portfolio Website</h1>
+    <!-- Header -->
+    <header class="header vh-100 text-center position-relative">
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">
+          Ahoj, já jsem Jakub
+        </h5>
+        <h1 class="display-1 fw-bold text-white" id="typing-text">
+          ASP.NET Developer
+        </h1>
+        <p class="roles text-white text-uppercase fs-4">
+          <span>ASP.NET DEVELOPER |</span>
+          <span>Vývojář webových aplikací</span>
+        </p>
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>O mně</span>
+            </div>
+          </div>
+        </a>
+        <div class="socials d-flex gap-3 position-absolute">
+          <a
+            href="https://www.linkedin.com/in/jakub-%C4%8Dern%C3%BD-12052430b"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="https://github.com/Grznar" target="_blank">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary">O mně</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Představuji se</h2>
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+          <img
+            src="/images/145857007_307ce493-b254-4b2d-8ba4-d12c080d6651.jpg"
+            alt="Profilová fotka Jakuba Černého"
+            class="about-img img-fluid rounded-circle"
+          />
+          <p class="lead">
+            Jsem Jakub Černý, vášnivý ASP.NET Developer se zaměřením na tvorbu
+            moderních a responzivních webových aplikací. Neustále se učím nové
+            technologie a zdokonaluji své dovednosti. Můj cíl je vytvářet
+            efektivní a uživatelsky přívětivá řešení.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile and Skills -->
+    <section class="profile my-6">
+      <div class="container">
+        <div class="row">
+          <!-- Profil -->
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">Profil</h3>
+            <p>
+              Jsem mladý, dynamický vývojář s vášní pro ASP.NET a moderní webové
+              technologie.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-3">
+                <h5><i class="fas fa-user text-primary"></i> Jméno:</h5>
+                <p>Jakub Černý</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5>
+                  <i class="fas fa-calendar text-primary"></i> Datum narození:
+                </h5>
+                <p>23.9.2005</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5>
+                  <i class="fas fa-briefcase text-primary"></i> Aktuální pozice:
+                </h5>
+                <p>ASP.NET Developer</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5><i class="fas fa-globe text-primary"></i> Web:</h5>
+                <p>www.jakubcerny.cz</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5><i class="fas fa-envelope text-primary"></i> Email:</h5>
+                <p>jakubcerny2005@seznam.cz</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Dovednosti -->
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">Dovednosti</h3>
+            <p>Zde je přehled mých klíčových dovedností:</p>
+            <h5><i class="fas fa-check"></i> HTML5</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 95%">95%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> CSS</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 85%">85%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> Bootstrap</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> ASP.NET</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 80%">80%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> SQL &amp; MSSQL</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 70%">70%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> Git &amp; GitHub</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+            <h5><i class="fas fa-check"></i> EF Core</h5>
+            <div
+              class="progress mb-4"
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 70%">70%</div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <a
+              href="#contact"
+              class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
+              >Kontaktovat mě</a
+            >
+            <a
+              href="files/JakubCerny_CV.pdf"
+              class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
+              download
+              >Stáhnout CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold text-primary">Portfolio</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Mé projekty</h2>
+          <p class="lead">
+            Ukázka několika projektů, na kterých jsem pracoval:
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project1.jpg"
+                data-lightbox="images"
+                data-title="Projekt: E-shop"
+              >
+                <img
+                  src="images/project1.jpg"
+                  alt="Screenshot projektu E-shop"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project2.jpg"
+                data-lightbox="images"
+                data-title="Projekt: Správa dat"
+              >
+                <img
+                  src="images/project2.jpg"
+                  alt="Screenshot projektu Správa dat"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project3.jpg"
+                data-lightbox="images"
+                data-title="Projekt: API integrace"
+              >
+                <img
+                  src="images/project3.jpg"
+                  alt="Screenshot projektu API integrace"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project4.jpg"
+                data-lightbox="images"
+                data-title="Projekt: Interní systém"
+              >
+                <img
+                  src="images/project4.jpg"
+                  alt="Screenshot projektu Interní systém"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project5.jpg"
+                data-lightbox="images"
+                data-title="Projekt: Webová aplikace"
+              >
+                <img
+                  src="images/project5.jpg"
+                  alt="Screenshot projektu Webová aplikace"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project6.jpg"
+                data-lightbox="images"
+                data-title="Projekt: Mobilní řešení"
+              >
+                <img
+                  src="images/project6.jpg"
+                  alt="Screenshot projektu Mobilní řešení"
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services text-bg-dark py-5 position-relative">
+      <div class="container position-relative">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold text-primary">Služby</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Co pro vás mohu udělat?</h2>
+          <p class="lead">
+            Nabízím profesionální vývoj webových aplikací a řešení na míru
+            pomocí ASP.NET a moderních technologií.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-code fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Vývoj webových aplikací</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5">
+              Tvorba moderních, responzivních a uživatelsky přívětivých webových
+              stránek a aplikací.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-server fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Backend řešení</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5">
+              Vývoj robustního a škálovatelného backendu pomocí ASP.NET a
+              databázových systémů.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Integrace API</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5">
+              Propojení a integrace různých služeb a API pro zefektivnění vašich
+              obchodních procesů.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" class="stats py-5 bg-secondary">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-users fa-3x mb-3"></i>
+              <p class="fs-1">3</p>
+              <h3 class="fs-6 text-uppercase">Klienti</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-project-diagram fa-3x mb-3"></i>
+              <p class="fs-1">12+</p>
+              <h3 class="fs-6 text-uppercase">Projektů</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-clock fa-3x mb-3"></i>
+              <p class="fs-1">2+</p>
+              <h3 class="fs-6 text-uppercase">Let praxe</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-book fa-3x mb-3"></i>
+              <p class="fs-1">5+</p>
+              <h3 class="fs-6 text-uppercase">Publikací</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-comments fa-3x mb-3"></i>
+              <p class="fs-1">10+</p>
+              <h3 class="fs-6 text-uppercase">Recenzí</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center">
+              <i class="fas fa-award fa-3x mb-3"></i>
+              <p class="fs-1">1</p>
+              <h3 class="fs-6 text-uppercase">Certifikát</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact text-bg-dark gradient py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-5">
+              <h4 class="text-uppercase fw-bold text-primary">Kontakt</h4>
+              <hr class="w-25 mx-auto" />
+              <h2 class="mb-4">Rád se s Vámi spojím</h2>
+              <p class="lead">
+                Máte dotazy nebo zájem o spolupráci? Neváhejte mě kontaktovat.
+              </p>
+            </div>
+            <form>
+              <div class="mb-5">
+                <input
+                  placeholder="Jméno"
+                  class="form-control bg-transparent border border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  placeholder="Email"
+                  class="form-control bg-transparent border border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                />
+              </div>
+              <div class="mb-5">
+                <textarea
+                  placeholder="Zpráva"
+                  class="form-control bg-transparent border border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                ></textarea>
+              </div>
+              <div class="mb-5 d-grid">
+                <button class="btn btn-primary" type="submit">Odeslat</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <footer class="d-flex mt-5 footer">
+          <p class="flex-grow-1">Copyright &copy; 2025 | Jakub Černý</p>
+          <div class="hstack gap-3">
+            <a href="https://github.com/Grznar" target="_blank">
+              <i class="fab fa-github fa-2x text-white"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jakub-%C4%8Dern%C3%BD-12052430b"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x text-white"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
